@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/weather-icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8845aaed19.js" crossorigin="anonymous"></script></head>
+<body>
+    <span class="js-weather weather">
+    </span>
+    <section class="presentation">
+        <section class="main">
+            <h1 class="js-clock">00:00</h1>
+
+            <form class="js-form form">
+                <input autocomplete="off" style="font-size: 2.5em;" type="text" placeholder="What is your name?">
+            </form>
+
+            <h4 style="font-size: 2.5em;" class="js-greetings greetings"></h4>
+
+
+            <h2>What are you planning to do today?</h2>
+        </section>
+        <form class="js-todoForm todoForm">
+            <input autocomplete="off" id="todoInput" type="text">
+        </form>
+        <ul style="list-style: none;" class="js-todoList"></ul>
+
+        <p id="photoCredit" style="cursor: pointer" onclick="newTab()" rel="noreferrer noopener" target="_blank"></p>
+    </section>
+    <script src="JS/clock.js"></script>
+    <script src="JS/bg.js"></script>
+    <script src="JS/greetings.js"></script>
+    <script src="JS/todo.js"></script>
+    <script src="JS/hover.js"></script>
+    <script src="JS/weather.js"></script>
+</body>
+</html>
